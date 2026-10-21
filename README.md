@@ -2,8 +2,6 @@
 
 Data, notebooks, and figures behind "Does GDPR Research Translate into Practice? An Analysis of EU-Funded Projects and Compliance Tools."
 
-Everything here lives in `analysis/` — it's the only part of the project tracked in this repo. The manuscript source, bibliography, and the final copies of figures used in the paper live outside it.
-
 ## Data
 
 - `gdpr_projects.csv` — 31 EU-funded GDPR-related projects, assembled from CORDIS and individual project pages. Funding figures are EU contribution amounts. CORDIS doesn't cover REC/CERV/Justice-programme grants, so those projects' dates and funding were cross-checked against the EU Funding & Tenders Portal directly.
@@ -23,8 +21,6 @@ Each notebook reads its CSV from `analysis/` and writes PNGs back into the same 
 ```
 jupyter nbconvert --to notebook --execute --inplace 02_funding_domain_heatmap.ipynb
 ```
-
-Figures aren't copied into the manuscript's image folder automatically — that's a manual step after regenerating.
 
 ## Known gaps
 
