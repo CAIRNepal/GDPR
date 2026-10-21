@@ -2,7 +2,7 @@
 
 Data, notebooks, and figures behind "Does GDPR Research Translate into Practice? An Analysis of EU-Funded Projects and Compliance Tools."
 
-This `analysis/` directory is the only part of the project tracked in this repo — the manuscript source, bibliography, and the final copies of figures used in the paper live outside it.
+Everything here lives in `analysis/` — it's the only part of the project tracked in this repo. The manuscript source, bibliography, and the final copies of figures used in the paper live outside it.
 
 ## Data
 
@@ -18,7 +18,7 @@ This `analysis/` directory is the only part of the project tracked in this repo 
 
 ## Regenerating figures
 
-Each notebook reads its CSV from this directory and writes PNGs back into it:
+Each notebook reads its CSV from `analysis/` and writes PNGs back into the same folder:
 
 ```
 jupyter nbconvert --to notebook --execute --inplace 02_funding_domain_heatmap.ipynb

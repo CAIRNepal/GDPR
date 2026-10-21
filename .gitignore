@@ -2,3 +2,4 @@
 !analysis/
 !analysis/**
 !.gitignore
+!README.md
